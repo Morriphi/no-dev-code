@@ -1,6 +1,6 @@
 {
   "name": "no-dev-code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a little script to check for code you might not want to check in",
   "repository": "https://github.com/Morriphi/no-dev-code",
   "keywords": "console.log, it.only, describe.only, .only, dev, code, dev-code",
