@@ -5,7 +5,7 @@ function checkFor {
   then
     echo ' *********************************************'
     echo '***********************************************'
-    echo '  ** You screwed up! You left in a ' $1 ' **'
+    echo "** You screwed up! You left in a $1 **"
     echo '***********************************************'
     echo ' *********************************************'
     grep -n -i $2 -r . --exclude-dir=node_modules
@@ -13,5 +13,5 @@ function checkFor {
   fi
 }
 
-checkFor 'console.log', 'console.log('
-checkFor '.only', '\(it\|describe\)\.only('
+checkFor 'console.log' 'console.log('
+checkFor '.only' '\(it\|describe\)\.only('

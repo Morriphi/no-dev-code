@@ -1,12 +1,14 @@
 {
   "name": "no-dev-code",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "a little script to check for code you might not want to check in",
+  "repository": "https://github.com/Morriphi/no-dev-code",
+  "keywords": "console.log, it.only, describe.only, .only, dev, code, dev-code",
+  "main": "./noDevCode.sh",
   "bin": {
     "no-dev-code": "./noDevCode.sh"
   },
-  "author": "",
+  "author": "Philip Morris",
   "license": "ISC",
   "dependencies": {}
 }

@@ -8,9 +8,9 @@ No-dev-code is a little script to check for code you might not want to check in.
 
 Checks for:
 
-*it.only
-*describe.only
-*console.log
+* it.only
+* describe.only
+* console.log
 
 ##Installation
 
