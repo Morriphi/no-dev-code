@@ -1,0 +1,12 @@
+{
+  "name": "no-dev-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "no-dev-code": "./noDevCode.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
